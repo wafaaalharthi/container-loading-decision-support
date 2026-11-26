@@ -1,0 +1,22 @@
+Benchmark cases: 182 (BR 70, WT 70, MD 42)
+Friedman chi2 = 615.8, df = 5, p = 7.66e-131
+
+                   algorithm  mean_rank  mean_util_pct  median_time_s
+                 Beam Search      1.162         81.721          2.000
+              Multi-Start EP      2.775         73.360          2.000
+              Block-Building      3.341         72.849          0.003
+                       BRKGA      3.549         72.006          2.000
+             Single-Start EP      4.571         69.238          0.014
+Wall-Building (manual-style)      5.602         64.108          0.006
+
+             A                            B  mean_diff_pp  A_better  B_better  ties  p_value  p_holm
+   Beam Search               Multi-Start EP        8.3613       170        12     0   0.0000  0.0000
+   Beam Search               Block-Building        8.8729       178         0     4   0.0000  0.0000
+   Beam Search                        BRKGA        9.7152       172         9     1   0.0000  0.0000
+   Beam Search              Single-Start EP       12.4838       177         5     0   0.0000  0.0000
+   Beam Search Wall-Building (manual-style)       17.6133       181         1     0   0.0000  0.0000
+Multi-Start EP               Block-Building        0.5117        91        91     0   0.4741  0.4741
+Multi-Start EP                        BRKGA        1.3540       127        38    17   0.0000  0.0000
+Block-Building              Single-Start EP        3.6108       125        57     0   0.0000  0.0000
+Multi-Start EP              Single-Start EP        4.1225       157         0    25   0.0000  0.0000
+Block-Building Wall-Building (manual-style)        8.7403       161        21     0   0.0000  0.0000

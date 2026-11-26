@@ -1,0 +1,7 @@
+kind,custom,contents,length_cm,width_cm,height_cm,weight_kg,quantity,priority,orientation,fragile,floor_only,stackable,stacking,load_bearing_kg
+electronics,,Electronic devices,80,60,55,24,24,1,upright,true,false,false,,
+machinery,,Equipment,100,75,80,95,24,3,upright,false,false,true,any,
+other,,Supplies,60,50,60,30,50,2,any,false,false,true,any,
+machinery,,Machine part,150,110,90,650,2,3,upright,false,true,false,,
+iron_metal,,Pipe crate,640,60,60,180,1,2,any,false,false,true,any,
+paper,,Documents,40,30,30,8,20,1,any,false,false,true,any,

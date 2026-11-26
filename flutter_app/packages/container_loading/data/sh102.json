@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "id": "SH-102",
+      "source": "DEMO",
+      "group": "DEMO",
+      "container": {
+        "id": "HL-20GP",
+        "size": [
+          5900,
+          2352,
+          2395
+        ],
+        "door": [
+          2340,
+          2292
+        ],
+        "payload": 28130.0
+      },
+      "options": {
+        "support": true,
+        "stacking": true,
+        "pressure": false,
+        "fragileBlocksStacking": true
+      },
+      "boxes": [
+        {
+          "type": "SH102-B01",
+          "qty": 24,
+          "size": [
+            800,
+            600,
+            550
+          ],
+          "weight": 24,
+          "rotations": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              1,
+              0,
+              2
+            ]
+          ],
+          "floorOnly": false,
+          "stackable": false,
+          "similarAbove": null,
+          "differentAbove": null,
+          "fragile": true,
+          "pressure": null,
+          "priority": 1,
+          "contents": "Electronic devices"
+        },
+        {
+          "type": "SH102-B02",
+          "qty": 24,
+          "size": [
+            1000,
+            750,
+            800
+          ],
+          "weight": 95,
+          "rotations": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              1,
+              0,
+              2
+            ]
+          ],
+          "floorOnly": false,
+          "stackable": true,
+          "similarAbove": null,
+          "differentAbove": null,
+          "fragile": null,
+          "pressure": null,
+          "priority": 3,
+          "contents": "Equipment"
+        },
+        {
+          "type": "SH102-B03",
+          "qty": 50,
+          "size": [
+            600,
+            500,
+            600
+          ],
+          "weight": 30,
+          "rotations": null,
+          "floorOnly": false,
+          "stackable": null,
+          "similarAbove": null,
+          "differentAbove": null,
+          "fragile": null,
+          "pressure": null,
+          "priority": 2,
+          "contents": "Supplies"
+        },
+        {
+          "type": "SH102-B04",
+          "qty": 2,
+          "size": [
+            1500,
+            1100,
+            900
+          ],
+          "weight": 650,
+          "rotations": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              1,
+              0,
+              2
+            ]
+          ],
+          "floorOnly": true,
+          "stackable": false,
+          "similarAbove": null,
+          "differentAbove": null,
+          "fragile": null,
+          "pressure": null,
+          "priority": 3,
+          "contents": "Machine part"
+        },
+        {
+          "type": "SH102-B05",
+          "qty": 1,
+          "size": [
+            6400,
+            600,
+            600
+          ],
+          "weight": 180,
+          "rotations": null,
+          "floorOnly": false,
+          "stackable": null,
+          "similarAbove": null,
+          "differentAbove": null,
+          "fragile": null,
+          "pressure": null,
+          "priority": 2,
+          "contents": "Pipe crate"
+        },
+        {
+          "type": "SH102-B06",
+          "qty": 20,
+          "size": [
+            400,
+            300,
+            300
+          ],
+          "weight": 8,
+          "rotations": null,
+          "floorOnly": false,
+          "stackable": null,
+          "similarAbove": null,
+          "differentAbove": null,
+          "fragile": null,
+          "pressure": null,
+          "priority": 1,
+          "contents": "Documents"
+        }
+      ],
+      "reference": {},
+      "notes": [
+        "Demo shipment used in the prototype: 121 boxes, 6 groups, 5996 kg, 35.73 m3.",
+        "B03, B05 and B06 have no stacking limit in the source table."
+      ]
+    }
+  ]
+}
